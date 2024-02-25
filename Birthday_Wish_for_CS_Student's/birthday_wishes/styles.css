@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(89, 224, 224);
+    background-image: no-repeat;
+}
+
+header {
+    text-decoration: underline;
+    font: 24px;
+    font-variant: small-caps;
+    margin: 0.5px;
+    padding: 2px;
+}
+
+h1 {
+    padding: 12px;
+    background-color: hsla(0, 12%, 5%, 0.493);
+    border-radius: 10px;
+}
+
+ul {
+    margin: 3px;
+    padding: 18px;
+    background-color: hwb(0 4% 95% / 0.699);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+article {
+    margin: 15px;
+    padding: 20px;
+    background-color: hsla(0, 6%, 7%, 0.637);
+    border-radius: 10px;
+}
+
+img {
+    background-color: hwb(0 73% 21% / 0.699);
+    padding: 15px;
+}
+
+#video {
+    margin: 15px;
+    padding: 25px;
+    background-color: hsla(0, 41%, 10%, 0.596);
+    border-radius: 40px;
+}
+
+body {
+    background-size: contain;
+    padding: 0%;
+    filter: drop-shadow(pink);
+    background-attachment: fixed;
+}
+
+html {
+    background-color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    color: rgb(252, 240, 240);
+}
+
+h1 {
+    box-shadow: 5px 5px 5px black;
+    animation: co 1s infinite;
+}
+
+@keyframes co {
+    0% {
+        background-color: skyblue;
+    }
+    15% {
+        background-color: yellow;
+    }
+    30% {
+        background-color: orange;
+    }
+    45% {
+        background-color: blue;
+    }
+    60% {
+        background-color: red;
+    }
+}
+
+#cake {
+    font-size: 200px;
+    padding-left: 0%;
+}
+
+footer {
+    background-color: hsla(0, 0%, 100%, 0.712);
+    font-family: serif;
+    font-variant: small-caps;
+    margin-top: 20px;
+}
